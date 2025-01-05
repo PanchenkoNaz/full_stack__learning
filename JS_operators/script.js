@@ -144,6 +144,17 @@
 
 // == приведення до типу
 
+// console.log(5 > 3);
+// console.log(5 < 3);
+// console.log(5 >= 5);
+// console.log(7 <= 3);
+
+// let value = 0;
+// console.log(value == 0);
+
+// console.log(5 !== 5);
+
+
 // ----------------------------------//
 // ----------------------------------//
 // or -and -not //
@@ -211,6 +222,23 @@
 // ----------------------------------//
 // ----------------------------------//
 
+// let num = 9;
+
+// switch (num) {
+//     case 0:
+//         console.log(0);
+//         break;
+    
+//     case 5:
+//         console.log(5);
+//         break;
+    
+//     case 10:
+//         console.log(10);
+//         break;
+        
+// }
+
 // let cost = null;
 // const sub = "premium";
 
@@ -224,7 +252,12 @@
 //     break;
 
 //   case "premium":
-//     cost = 500;
+//         cost = 500;
+
+        
+    
+//     default: console.log("Invalid sub");
+        
 // }
 
 // console.log(cost);
