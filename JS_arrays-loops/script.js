@@ -61,7 +61,7 @@
 
 // while (true) {
 //   let value = +prompt("Введіть число");
-//   if (!value) break;
+//     if (!value) break;
 
 //   summ += value;
 // }
@@ -151,7 +151,7 @@
 
 // let arr = ["a", "b", "c", "d", "f"];
 
-// arr.splice(2, 2);
+// arr.splice(1, 2);
 
 // console.log(arr);
 
@@ -174,22 +174,27 @@
 //   { id: 3, name: "Orange" },
 // ];
 
-// console.log(fruts.find((item) => item.id === 1));
+// --- find ---
 
+// console.log(fruts.find((item) => item.id === 1));
 // console.log(fruts.filter((item) => item.id < 2));
 
-// map
+// --- map ---
 
 // let result = fruts.map((item) => item.name.length);
 // console.log(result);
 
-// let names = "Оля, Юля, Аня, Петя";
+// --- split ---
 
+// let names = "Оля, Юля, Аня, Петя";
 // let arr = names.split(", ");
 
-// let newString = arr.join(", ");
+// --- join ---
 
+// let newString = arr.join(", ");
 // console.log(newString);
+
+
 
 // let value = arr.reduce(
 //   function (accumulator, item, index, array) {
@@ -198,11 +203,13 @@
 //   [initial]
 // );
 
+
+
 // let arr = [1, 2, 3, 4, 5];
 
 // let red = arr.reduce((summ, item) => summ + item);
-
 // console.log(red);
+
 
 // let arr = [23, 45, 30];
 
