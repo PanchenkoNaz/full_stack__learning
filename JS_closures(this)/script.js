@@ -186,11 +186,11 @@
 
 ////////
 
-const cart = {
-  showItems() {
-    console.log("В корзині: ", this.items);
-  },
-};
+// const cart = {
+//   showItems() {
+//     console.log("В корзині: ", this.items);
+//   },
+// };
 
 // const woman = {
 //   items: ["Сукня, туфлі"],
