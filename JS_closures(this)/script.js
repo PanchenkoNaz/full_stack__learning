@@ -1,5 +1,23 @@
 //замикання
 
+// function createNewSum(n) {
+//     return function () {
+//         console.log(10 * n);
+//     };
+// }
+// const calc = createNewSum(5);
+// calc();
+
+
+// function createNewNumber(n) {
+//     return function (num) {
+//         return n + num;
+//     };
+// }
+// const addFive = createNewNumber(5);
+// console.log(addFive(10));
+
+
 // function createUrl(domain) {
 //   return function (url) {
 //     return `https://${url}.${domain}`;
@@ -15,9 +33,10 @@
 // console.log(comUa("google"));
 // console.log(comUa("fb"));
 
+
 //_________________________//
 //_________________________//
-//this
+// --- this ---
 
 // function hello() {
 //   console.log("hello", this);
@@ -47,7 +66,7 @@
 //   this.style.background = "green";
 // }
 
-// // document.querySelector("div").onclick = changeColor;
+// document.querySelector("div").onclick = changeColor;
 
 // let user = document.querySelectorAll("div");
 
@@ -167,11 +186,11 @@
 
 ////////
 
-// const cart = {
-//   showItems() {
-//     console.log("В корзині: ", this.items);
-//   },
-// };
+const cart = {
+  showItems() {
+    console.log("В корзині: ", this.items);
+  },
+};
 
 // const woman = {
 //   items: ["Сукня, туфлі"],
