@@ -58,7 +58,7 @@
 // const item = document.createElement("a");
 // item.href = "#";
 // item.classList.add("btn");
-// item.textContent = "3";
+// item.textContent = "3"; 
 
 // const nav = document.querySelector(".nav");
 // nav.appendChild(item);
