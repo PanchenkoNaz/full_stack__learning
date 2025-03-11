@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import HelloWorldComponent from './HelloWorldComponent';
+import MyClassComponent from './MyClassComponent';
 import './App.css';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         >
           Learn React
         </a>
-        {<HelloWorldComponent/>}
+        {<HelloWorldComponent />}
+        <MyClassComponent/>
       </header>
     </div>
   );
